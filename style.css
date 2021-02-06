@@ -1,0 +1,92 @@
+/* Write some CSS below */
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+}
+
+.banner {background-image: url(images/VIKA-background.jpg);
+background-size: cover;
+background-position: center;
+padding: 120px 0;
+text-align: center;
+color:white;}
+
+.banner p{font-size: 28px;color:white;
+font-weight:300;}
+
+.button-red{background-color: #e71414;
+  color: white;
+  padding: 10px 38px;
+  border-radius: 4px;
+  display: inline-block;
+  margin:10px;
+  text-decoration: none;
+  transition:0.4s;}
+
+
+.banner a:hover {color:black;
+background-color: white;
+font-weight: bold}
+
+.container {
+  display: inline-block;
+  margin: auto;
+  padding:12px 0px;}
+
+.cards {display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 8px;}
+
+.card-white {
+  background: rgb(250,250,250);
+  box-shadow: 0 0 0px rgba(0,0,0,0.1);
+  text-align: center;
+  min-height: 510px;
+  padding: 36px;
+  margin: 0px;
+  transition:0.4s;}
+
+.card-white:hover {box-shadow: 0 0 28px rgba(0,0,0,0.2);
+	color:red;}
+
+a{text-decoration: none; color:black;}
+p{color:rgb(80,80,80);
+margin-bottom: 5px}
+
+.card-white img {
+  width: 280px;
+  height: 280px;
+  box-shadow: 0 0 0px rgba(0,0,0,0.1);
+  border-radius: 50%;
+  object-fit: cover;
+  transition:0.5s;
+}
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-white {
+    width: auto;
+  }
+}
+
+.footer {text-align: center;
+padding:25px;}
+
+.footer p{color: rgb(180,180,180);}
+
+h1{letter-spacing: 7px;
+font-size:56px;}
+
+h3{
+font-size: 28px;
+font-weight: bold;
+letter-spacing: 3px;
+margin-bottom: 16px
+}
+
+
+h3:hover {color:red;}
+
